@@ -1,0 +1,13 @@
+weasyprint>=68.1
+tinycss2>=1.5.0
+ipywidgets
+lime
+xgboost
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+plotly
+statsmodels
+shap

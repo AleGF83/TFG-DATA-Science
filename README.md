@@ -59,21 +59,36 @@ TFG_SaqueVb2425_DataScience_AleGravinaFabregat.ipynb
 
 ## 🚀 Cómo ejecutar el Notebook
 
-1. **Requisitos previos**:
-   - Python 3.8+
-   - Jupyter Notebook o JupyterLab
+### 1. Requisitos previos
+- Python 3.8+
+- Jupyter Notebook o JupyterLab
 
-2. **Instala las dependencias**:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn xgboost shap lime plotly statsmodels weasyprint ipywidgets
-   ```
+### 2. Instala las dependencias (Primera vez)
 
-3. **Coloca el archivo CSV en la carpeta** (ver apartado de Descarga de Datos)
+**Opción A - Desde `requirements.txt` (Recomendado)**:
+```bash
+# Clona el repositorio
+git clone <repo-url>
+cd <repo-folder>
 
-4. **Abre y ejecuta el notebook**:
-   ```bash
-   jupyter notebook TFG_SaqueVb2425_DataScience_AleGravinaFabregat.ipynb
-   ```
+# Instala todas las dependencias de una sola vez
+pip install -r requirements.txt
+```
+
+**Opción B - Instalar manualmente**:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost shap lime plotly statsmodels weasyprint ipywidgets
+```
+
+### 3. Coloca el archivo CSV en la carpeta
+Ver apartado **📥 Archivo de Datos**
+
+### 4. Abre y ejecuta el notebook
+```bash
+jupyter notebook TFG_SaqueVb2425_DataScience_AleGravinaFabregat.ipynb
+```
+
+⚠️ **IMPORTANTE**: Ejecuta la **primera celda de instalación** del notebook SOLO UNA VEZ para verificar que todas las dependencias están correctas.
 
 ---
 

@@ -132,4 +132,14 @@ pip install --upgrade pandas scikit-learn xgboost shap lime
 
 ---
 
+## 📝 Historial de Cambios
+
+### Febrero 21, 2026
+- **Configuración del entorno**: Se estableció y configuró el entorno virtual Python 3.13.12
+- **Instalación de dependencias**: Se instalaron todos los paquetes del `requirements.txt`
+- **Configuración de Jupyter**: Se configuró el kernel del notebook con el entorno virtual
+- **Control de versiones**: Se inicializó seguimiento con Git y GitHub
+
+---
+
 ¡Cualquier duda, revisa la documentación oficial de las librerías utilizadas!

@@ -1,5 +1,7 @@
-# Ignorar archivos CSV locales (contienen datos sensibles)
+# Ignorar archivos CSV y Excel genéricos (datos sensibles)
+# EXCEPCIONES: Archivos de datos del TFG SÍ se suben (creación propia con DataVolley)
 *.csv
+# !TFG-TomaDatosSaqueVb2425-AleGravinaFabregat.xlsx  <- Este SÍ se sube
 
 # Ignorar carpetas de datos
 data/

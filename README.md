@@ -7,23 +7,26 @@ Este proyecto incluye modelado predictivo con técnicas de Machine Learning (Reg
 
 ---
 
-## 📥 Descarga de Datos
+## � Origen de los Datos
 
-**IMPORTANTE**: Los datos NO están incluidos en el repositorio por privacidad y protección de datos.
+**Creación propia**: El archivo `TFG-TomaDatosSaqueVb2425-AleGravinaFabregat.csv` fue creado en colaboración con operadores de **DataVolley en España**.
 
-### Cómo obtener los datos:
+### Proceso de obtención:
 
-1. **Accede a la web oficial de la RFEVB**:
-   - [Estadísticas RFEVb - Rally Edition](https://rfevb-web.dataproject.com/Statistics.aspx?ID=151&PID=185)
+1. **Recopilación de datos**: Se extrajeron datos brutos de DataVolley
+2. **Procesamiento**: Se aplicó el formato interno estándar de análisis de voleibol (ver estructura en imagen adjunta)
+3. **Validación**: Se verificó la integridad de los datos con los operadores
+4. **Anonimización**: Los jugadores se identifican como "Jugadora_1", "Jugadora_2", etc.
 
-2. **Descarga el archivo CSV** con los datos de saque de la temporada.
+---
 
-3. **Coloca el archivo en esta carpeta** renombrado como:
-   ```
-   TFG-TomaDatosSaqueVb2425-AleGravinaFabregat.csv
-   ```
+## 📥 Archivo de Datos
 
-4. **El programaa lo cargará automáticamente** desde la ruta local.
+El archivo **`TFG-TomaDatosSaqueVb2425-AleGravinaFabregat.csv`** está incluido en el repositorio.
+
+- ✅ Descárgalo directamente desde GitHub
+- ✅ Colócalo en esta carpeta (o donde esté el notebook)
+- ✅ El programa lo cargará automáticamente desde la ruta local
 
 ---
 

@@ -1,0 +1,21 @@
+# Ignorar archivos CSV locales (contienen datos sensibles)
+*.csv
+
+# Ignorar carpetas de datos
+data/
+datos/
+
+# Archivos del sistema
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+.idea/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Entorno virtual
+venv/
+env/
